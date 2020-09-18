@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/fontawesome.min.css">
+    <link rel="stylesheet" href="./css/animate.min.css">
+    <title>Shakil Keep</title>
+</head>
+<body>
+
+<!-- desing for navbar -->
+        <div class="row">
+            <div class="col">
+                <div class="Nav">
+                    <img src="./images/logo.png" alt="">
+                </div>
+            </div>
+        </div>
+
+<!--design for first input field -->
+<div class="container my-5" id="firstLook">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" class="">
+            <div class="inputBox">
+                <input type="text" placeholder="Wirte a note" id='firstInput' class="form-control">
+            </div>
+            
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+<!--design for second look  -->
+<div class="container my-5" id="secondLook">
+    <div class="row">
+        <div class="col-md-4"></div>
+        <div class="col-md-4" class="">
+            <div class="inputBox">
+                <div id="showError"></div>
+                <input type="text" value = 'Title' id='titleInput' class="form-control my-2">
+                <input type="text" placeholder="wrte a note" id='noteInput' class="form-control my-2">
+
+                <button class="btn btn-warning float-right text-light" id='addBtn'> <i class="fas fa-plus-circle"></i> </button>
+            </div>
+            
+        </div>
+        <div class="col-md-4"></div>
+    </div>
+</div>
+
+<!-- show result  -->
+<div class="container">
+    <div class="row my-3" id="showTask">
+
+    </div>
+</div>
+   
+<!-- Script -->
+<script src="./js/bootstrap.min.js"></script>
+<script src="./js/jquery-slim.min.js"></script>
+<script src="./js/popper.min.js"></script>
+<script src="./code.js"></script>
+</body>
+</html>

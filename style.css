@@ -1,0 +1,36 @@
+.Nav{
+    background: orange;
+    padding: 10px;
+    box-shadow: 3px 3px 7px 1px;
+}
+.Nav img{
+    width: 250px;
+}
+.inputBox{
+    background-color: #fff;
+    border-radius: 5px;
+    padding:20px;
+    box-shadow:3px 3px 7px 1px black ;
+}
+.form-control{
+    border: none !important;
+}
+
+.btn-warning{
+    color: #212529 !important ;
+    background-color: #ffc107 !important ;
+    border-color: #ffa500  !important;
+    border-radius: 50% !important;
+}
+#titleInput[value]{
+    font-size: 20px;
+}
+
+/* hide second block */
+#secondLook{
+    display: none;
+}
+
+.hoverEffect:hover{
+    color: red;
+}
